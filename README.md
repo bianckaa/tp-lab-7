@@ -33,8 +33,8 @@ Se usan menos repeticiones porque cada simulación es ~10× más costosa que con
 | P1 | ¿Cuántos sobres y cuánto cuesta completar el álbum? Comparar con valor teórico. | Sobres esperados |
 | P2 | ¿Cuál es la probabilidad de completarlo con Q 10,000 y con Q 15,000? | Presupuesto fijo |
 | P3 | ¿Cuántas cajas se necesitan? ¿Conviene vs sobres sueltos? | Cajas vs sueltos |
-| P4 | Con K = 4, ¿cuántos sobres y quetzales se ahorran? | Intercambio de repetidas |
-| P5 | ¿Qué reduce más sobres: subir S de 7 a 8, o aplicar K = 4? | Comparación de estrategias |
+| P4 | ¿Cómo varía el ahorro en función de K ∈ {2,3,4,5,6,8,10}? ¿Cuándo deja de ser significativo el ahorro marginal? | Intercambio de repetidas |
+| P5 | ¿Cuántos sobres se necesitan para alcanzar el 90 % y 95 % del álbum? ¿Qué costo concentra el último tramo? | Escenarios extremos |
 
 ### Resultados principales
 
@@ -45,8 +45,11 @@ Se usan menos repeticiones porque cada simulación es ~10× más costosa que con
 | Prob. completar con Q 10,000 | 60.6 % |
 | Prob. completar con Q 15,000 | 98.7 % |
 | E[cajas] necesarias | 10.6 |
-| E[sobres] con K = 4 | 258 (−75 %) |
-| Ahorro con K = 4 | Q 7,477 |
+| E[sobres] con K = 2 / 4 / 10 | 194 / 258 / 356 |
+| Ahorro con K = 2 / 4 / 10 | Q 8,087 / Q 7,477 / Q 6,546 |
+| E[sobres] al 90 % del álbum | 321 |
+| E[sobres] al 95 % del álbum | 417 |
+| Costo del tramo 95 % → 100 % | Q 5,971 (60 % del total) |
 
 ---
 
